@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+html{
+    font-family:sans-serif;
+    color:#000000;
+}
+
+.todo{
+    font-weight:bold;
+    color:#000000;
+    background-color:#ffffff;
+    border-radius:50px;
+    font-size:14px;
+    padding:5px 10px 5px 10px;
+}
+
+body{
+    background: url(http://www.trbimg.com/img-57bdb439/turbine/sdut-chargers-ladainian-tomlinson-hall-of-fame-2015jun10);
+    background-size: cover
+}
+
+#submit-button:active{
+    box-shadow:1px 1px 1px #90A4AE;
+    font-size:14px;
+}
+
+li{
+    padding:5px;
+    margin-bottom:10px;
+}
+
+    
