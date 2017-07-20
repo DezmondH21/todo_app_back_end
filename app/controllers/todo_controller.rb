@@ -1,4 +1,7 @@
 class TodoController < ApplicationController
     def index
     end 
-end 
+    def show
+        @todo_description="do dishes" 
+    end
+end
