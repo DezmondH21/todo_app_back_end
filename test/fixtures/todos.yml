@@ -2,12 +2,10 @@
 
 one:
   description: MyString
-  id: 1
   date: MyString
   complete: false
 
 two:
   description: MyString
-  id: 1
   date: MyString
   complete: false
