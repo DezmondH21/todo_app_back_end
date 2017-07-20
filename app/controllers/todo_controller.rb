@@ -12,9 +12,9 @@ class TodoController < ApplicationController
             @todo_description="do homework"
         elsif todo_id == '3'
             @todo_description="clean room"
-        elsif todo_id == '3'
-            @todo_description="play football"
         elsif todo_id == '4'
+            @todo_description="play football"
+        elsif todo_id == '5'
             @todo_description="play the Xbox One"
         end
     end
