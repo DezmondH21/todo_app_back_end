@@ -2,9 +2,11 @@
     <ul>
         <li> 
             <input type="checkbox">
-            <span class="todo"><a href="show/1">Do Dishes 7/15 </a></span>
+            <span class="todo"><a href="show/<%= todo.id%>"><%= todo.description %>< ><%= todo.date%></a></span>
         </li>
-        <li> 
+        <% end %>
+        </ul>
+        <!--<li> 
             <input type="checkbox"> 
             <span class="todo"><a href="show/2">Do Homework 7/15 </a></span>
         
@@ -18,14 +20,15 @@
             <input type="checkbox"> 
             <span class="todo"><a href="show/4">Play football 7/15 </a></span>
             
-        </li>
+        </li> 
         <li> 
             <input type="checkbox"> 
-            <span class="todo"><a href="show/5">Play the Xbox One 7/15 </a></span>
+            <span class="todo"><a href="show/5">Play the Xbox One 7/15 </a></span> 
             
-        </li>
+        </li> -->
        <div id="new-todo-block">
             <input id= "new task block" type="text" placeholder="Put your task">
             <input id= "submit-button" type="submit" value="Add to do">
+        </ul>
         </div>
-      </ul> 
+      
