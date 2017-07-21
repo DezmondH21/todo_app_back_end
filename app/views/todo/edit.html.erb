@@ -1,10 +1,9 @@
 <div class="card"
 <h2>Edit this todo...</h2>
-<form action = "#">/form>
-<input class = "text-input" id="new_todo_description" name="description" type="text" placeholder="put your todo...">
-<input class = "text-input" id="new_date" name="date" type="text" placeholder="put your date...">
-<input class = "button" id="add new todo button" type "submit" value = "Edit todo">
-href="/todo/index" class= "simple-link">Go back</a>
-
+<form action = "/todo/update/<%= @todo.id%>">/form>
+    <input class = "text-input" id="new_todo_description" name="description" type="text" placeholder="put your todo...">
+    <input class = "text-input" id="new_date" name="date" type="text" placeholder="put your date...">
+    <input class = "button" id="add new todo button" type "submit" value = "Edit todo">
+    <a href="/todo/index" class= "simple-link">Go back</a>
 </form>
 </div>

@@ -1,11 +1,13 @@
 <h1>What I Have to do today July 15</h1>
     <ul>
+        <% @todos.each do |todo| %>
         <li> 
             <input type="checkbox">
-            <span class="todo"><a href="show/<%= todo.id%>"><%= todo.description %>< ><%= todo.date%></a></span>
+            <span class="todo"><a href="show/<%= todo.id %>"><%= todo.description %><%= todo.date %></a></span>
         </li>
         <% end %>
         </ul>
+        
         <!--<li> 
             <input type="checkbox"> 
             <span class="todo"><a href="show/2">Do Homework 7/15 </a></span>
